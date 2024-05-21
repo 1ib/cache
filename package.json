@@ -1,9 +1,9 @@
 {
-  "name": "<package_name>",
-  "description": "<package_description>",
-  "repository": "git@github.com:<package_author_name>/<package_name>.git",
-  "homepage": "https://github.com/<package_author_name>/<package_name>",
-  "author": "<package_author_name>",
+  "name": "@1ib/cache",
+  "description": "A TypeScript utility for caching results of method executions.",
+  "repository": "git@github.com:1ib/cache.git",
+  "homepage": "https://github.com/1ib/cache",
+  "author": "kingcc",
   "keywords": [],
   "version": "0.0.1",
   "engines": {

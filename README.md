@@ -1,33 +1,34 @@
-# <package_name>
+# cache
 
-<package_description>
+A TypeScript utility for caching results of method executions.
 
 ```ts
-  <package_demo>
+class {
+  @cache()
+  async foo() {
+    // ...
+  }
+}
 ```
 
 ## Install
 
 ### Node.js
 
-Install using [npm][npm] or [yarn][yarn]:
+Install using `npm` or other package managers:
 
 ```
-npm install <package_author_name>/<package_name>
-
-# or
-
-yarn add <package_author_name>/<package_name>
+npm install 1ib/cache
 ```
 
 Import into your Node.js project:
 
 ```js
 // CommonJS
-const { <package_name> } = require("<package_author_name>/<package_name>")
+const { cache } = require("1ib/cache")
 
 // ESM
-import { <package_name> } from "<package_author_name>/<package_name>"
+import { cache } from "1ib/cache"
 ```
 
 ### Deno
@@ -35,17 +36,17 @@ import { <package_name> } from "<package_author_name>/<package_name>"
 Install using [JSR](https://jsr.io):
 
 ```shell
-deno add <package_author_name>/<package_name>
+deno add 1ib/cache
 
 #or
 
-jsr add <package_author_name>/<package_name>
+jsr add 1ib/cache
 ```
 
 Then import into your Deno project:
 
 ```js
-import { <package_name> } from "<package_author_name>/<package_name>"
+import { cache } from "1ib/cache"
 ```
 
 ### Bun
@@ -53,13 +54,13 @@ import { <package_name> } from "<package_author_name>/<package_name>"
 Install using this command:
 
 ```
-bun add <package_author_name>/<package_name>
+bun add 1ib/cache
 ```
 
 Import into your Bun project:
 
 ```js
-import { <package_name> } from "<package_author_name>/<package_name>"
+import { cache } from "1ib/cache"
 ```
 
 ### Browser
@@ -67,23 +68,19 @@ import { <package_name> } from "<package_author_name>/<package_name>"
 It's recommended to import the minified version to save bandwidth:
 
 ```js
-import { <package_name> } from "https://cdn.skypack.dev/<package_author_name>/<package_name>?min"
+import { cache } from "https://cdn.skypack.dev/1ib/cache?min"
 ```
 
 However, you can also import the unminified version for debugging purposes:
 
 ```js
-import { <package_name> } from "https://cdn.skypack.dev/<package_author_name>/<package_name>"
+import { cache } from "https://cdn.skypack.dev/1ib/cache"
 ```
 
 ## License
 
-This project is licensed under the <package_license>.
+This project is licensed under the MIT.
 
 ## Author
 
-[<package_author_name>](https://github.com/<package_author_name>)
-
----
-
-Feel free to customize this template according to the needs of your package. If your package requires more complex setup, it's good to include detailed instructions on configuration, API references, and a changelog. Always ensure that the documentation is up to date with the latest code changes.
+[kingcc](https://github.com/kingcc)
